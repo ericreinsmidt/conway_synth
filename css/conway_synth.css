@@ -1,0 +1,49 @@
+/*
+All background colors are for visualizing divs.
+Style is very temporary.
+
+minor change to test commit and push
+
+*/
+html
+{
+	background-color: #aaa;
+	font-family: verdana;
+}
+
+body
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wrapper
+{
+	background-color: #bbb;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header
+{
+	text-align: center;
+	background-color: #ccc;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content
+{
+	background-color: #ddd;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer
+{
+	text-align: center;
+	background-color: #eee;
+	margin-left: auto;
+	margin-right: auto;
+}

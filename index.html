@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+
+<!--simple dummy layout for website-->
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/conway_synth.css" />
+	<script type="text/javascript" src="js/raphael-min.js"></script>
+	<script type="text/javascript" src="js/actiongrid.js"></script>
+
+	<script type="text/javascript">
+	  var seq = new ActionGrid();
+	  seq.xdim = 10; seq.ydim = 10;
+	  seq.div = "actiongrid";
+	  seq.xpixels = 500; seq.ypixels = 500;
+	  seq.cell = ActionSquare;
+	</script>
+</head>
+
+<body onload='seq.create()'>
+
+	<div id="wrapper" style="width: 500px">
+		
+		<div id="header">
+			<h1>Conway Synth</h1>
+		</div>
+
+		<div id="actiongrid"
+		     style="border: solid 1px orange">
+			<!--action grid! -->
+		</div>
+
+		<div id="footer">
+			<p>
+				add creative commons license here?
+			</p>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
